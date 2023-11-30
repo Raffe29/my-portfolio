@@ -1,0 +1,82 @@
+body {
+  background: radial-gradient(circle, #16191e, #000000);
+  font-family: Arial, sans-serif;
+  /* Reset de estilos básicos */
+  body,
+  h1,
+  h2,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+#seta {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card-container {
+  display: flex; /* Adicione esta linha para fazer os cards se alinharem horizontalmente */
+  justify-content: space-around;
+  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha quando não couberem mais */
+}
+
+.card {
+  max-width: 300px;
+  background-color: #21252b00;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.027);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px 1;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 12px;
+}
+@media screen and (min-width: 1199px) and (max-width: 1366px) {
+  .poortal {
+    margin-top: 120px;
+    margin-left: 420px;
+  }
+  .poortal1 {
+    font-size: 15px;
+  }
+  .poortal2 {
+    font-size: 15px;
+  }
+  .poortal3 {
+    font-size: 15px;
+  }
+  .P1 {
+    width: 400px; /* Largura do botão */
+  }
+  .P2 {
+    width: 400px; /* Largura do botão */
+  }
+  .P3 {
+    width: 400px; /* Largura do botão */
+  }
+  #file {
+    width: 10px; /* Largura do botão */
+    height: 15px; /* Altura do botão */
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+}

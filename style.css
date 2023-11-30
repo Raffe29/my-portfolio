@@ -1,0 +1,82 @@
+/* Estilos gerais */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background: radial-gradient(circle, #16191e, #000000);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2rem; /* Tamanho maior para cabeçalho */
+}
+
+.texto h1 {
+  font-size: 2.5rem;
+  margin: 10% auto; /* Centralize o conteúdo verticalmente e ajuste de margens */
+  max-width: 80%; /* Reduza a largura máxima para manter o conteúdo legível */
+  text-align: center; /* Centralize o texto */
+}
+
+.texto {
+  margin: 10% auto;
+  max-width: 100%; /* Reduza a largura máxima para 80% */
+}
+
+.texto1 {
+  text-align: center;
+}
+/* Aumente o tamanho do texto e adicione a borda azul */
+.texto h1 a span {
+  color: #4a89ffd7;
+  background-color: #0059ffd7;
+  font-size: 3.5rem; /* Ajuste o tamanho de acordo com sua preferência */
+  border: 2px solid transparent; /* Adicione uma borda azul */
+  padding: 5px; /* Adicione preenchimento para espaço extra ao redor do texto */
+  border-radius: 8px; /* Arredonde as bordas da borda */
+}
+
+/* Aumente o tamanho do subtexto */
+.texto1 p {
+  font-size: 1.2rem; /* Ajuste o tamanho de acordo com sua preferência */
+}
+
+.portal a {
+  display: inline-block; /* Alinhe os links horizontalmente */
+  margin: 10px; /* Adicione espaço entre os links */
+  font-size: 1.5rem; /* Aumente o tamanho da fonte dos links */
+  text-decoration: none;
+
+  padding: 10px;
+  color: #0084ff91;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  max-width: 200px; /* Reduza a largura máxima dos links */
+  text-align: center; /* Centralize o texto */
+}
+
+.portal a:hover {
+  background-color: #ffffff1e;
+}
+
+/* Estilos para telas pequenas (móveis) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .texto {
+    margin: 5% auto;
+    max-width: 90%;
+  }
+}

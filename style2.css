@@ -1,0 +1,114 @@
+/* Estilos gerais */
+body {
+  background: radial-gradient(circle, #16191e, #000000);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para ícones e botões */
+#file,
+#file1,
+#file2 {
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.027);
+  margin-top: -15px;
+  background-color: #3f3f3f38;
+  padding: 8px;
+  border-radius: 5px;
+  width: 18px;
+  height: 15px;
+}
+
+/* Estilos para a seção de portfólio */
+.poortal {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.P1,
+.P2,
+.P3 {
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.027);
+  text-decoration: none;
+  background-color: #00000038;
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  height: 70px;
+  margin: 10px 0;
+}
+
+.P1,
+.P2,
+.P3,
+.poortal1,
+.poortal2,
+.poortal3 {
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  border-color: transparent;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* Estilos para o menu */
+.portal99 {
+  text-align: center;
+}
+
+.portal99 a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 10px;
+  color: #0084ff91;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  max-width: 200px;
+  border: none; /* Remova a propriedade de borda */
+}
+
+.portal99 a:hover {
+  background-color: #ffffff1e;
+}
+
+.portal1,
+.portal2,
+.portal3 {
+  background-color: #00000038;
+  font-size: 20px;
+  color: #0084ff91;
+  text-decoration: none;
+  border-color: transparent;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+}
+
+/* Consultas de mídia para telas menores */
+@media screen and (max-width: 767px) {
+  .poortal {
+    margin-top: 100px; /* Reduza a margem superior */
+    font-size: 0.9rem;
+  }
+
+  .P1,
+  .P2,
+  .P3 {
+    width: 80%; /* Reduza a largura dos elementos para 80% */
+    margin: 0 auto; /* Centralize os elementos horizontalmente */
+  }
+
+  .portal {
+    flex-direction: column;
+    align-items: center; /* Centralize os elementos verticalmente */
+  }
+}
